@@ -5,8 +5,6 @@ import mate.academy.model.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static org.apache.logging.log4j.LogManager.getLogger;
-
 public class AuthenticationServiceImpl implements AuthenticationService {
     private Logger logger = LogManager.getLogger(AuthenticationServiceImpl.class);
 
